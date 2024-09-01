@@ -1,6 +1,8 @@
 package Lecture11;
 
 public class S_Builder{
+    StringBuilder bs= new StringBuilder();
+    // bs.append("This is BULLSHIT");
     public static void main(String[] args) {
         // code
         StringBuilder sb = new StringBuilder(16);
