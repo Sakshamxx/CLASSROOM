@@ -1,19 +1,22 @@
 package Lecture11;
 
-public class S_Builder{
+public class S_Builder {
     StringBuilder bs= new StringBuilder();
-    // bs.append("This is BULLSHIT");
+    
     public static void main(String[] args) {
-        // code
-        StringBuilder sb = new StringBuilder(16);
-        // sb.append("Hello");
-        // sb.insert(2, "y");
-        // sb.delete(2, 5);
-        // sb.append("y");
-        sb.ensureCapacity(8);
-        // sb.append("bye");
+        //Code
+        StringBuilder sb= new StringBuilder();
         // sb.reverse();
-        // sb.replace(2, 4, "replaced");
+        // sb.append("Hello");
+        // sb.replace(2, 4,"Replaced");
+        // sb.insert(2, "y. He");
+        // sb.delete(2,5);
+        sb.ensureCapacity(18);
+        // sb.append("Bye");
+        // System.out.println(sb);
         System.out.println(sb.capacity());
+        // System.out.println(sb.length());
+        // System.out.println(sb.capacity());
+        // String s= new String("Hello");
     }
 }
