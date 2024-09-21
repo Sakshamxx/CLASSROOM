@@ -40,7 +40,7 @@ public class TwoDArrays {
         fillArray(nums, arr);
     }
     static void fillArray(int[][] nums, int[] arr){
-        int rows= nums.length;
+        // int rows= nums.length;
         int cols= nums[0].length;
         for(int i=0;i<nums.length;i++){
             for(int j=0;j<nums[0].length;j++){
@@ -93,7 +93,7 @@ public class TwoDArrays {
             {8,6,7},
             {2,5,9}
         };
-        int[] arr= {1,2,3};
+        // int[] arr= {1,2,3};
         // populate(nums);
         display(nums);
         // transpose(nums);

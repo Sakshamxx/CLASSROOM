@@ -1,7 +1,6 @@
 package Lecture12;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 public class Array_List {
     public static void main(String[] args) {
         // 1. Syntax
